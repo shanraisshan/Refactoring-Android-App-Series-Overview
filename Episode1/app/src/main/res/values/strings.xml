@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Refactor Android</string>
+    <string name="title_books_activity">Refactor Android</string>
+
+    <!-- todo episode -->
+    <string name="episode">Episode 1</string>
+
+
+</resources>
