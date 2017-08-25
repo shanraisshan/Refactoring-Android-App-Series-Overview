@@ -6,7 +6,6 @@ import com.refactor.repository.BooksRepository;
 import com.refactor.repository.model.Book;
 import java.util.Arrays;
 import java.util.List;
-
 import org.junit.After;
 import org.mockito.Mockito;
 import static java.util.Collections.EMPTY_LIST;
@@ -16,7 +15,6 @@ import org.mockito.junit.MockitoRule;
 import io.reactivex.Single;
 import io.reactivex.plugins.RxJavaPlugins;
 import io.reactivex.schedulers.Schedulers;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -49,18 +47,15 @@ public class BooksActivityPresenterTest {
 
     @Test
     public void shouldPassBooksToView() {
-        Mockito.when(booksRepository.getBooks()).thenReturn(Single.just(MANY_BOOKS));
+        when(booksRepository.getBooks()).thenReturn(Single.just(MANY_BOOKS));
         presenter.loadBooks();
-        Mockito.verify(view).displayBooks(MANY_BOOKS);
+        verify(view).displayBooks(MANY_BOOKS);
     }
 
     @Test
     public void shouldHandleNoBooksFound() {
         when(booksRepository.getBooks()).thenReturn(Single.<List<Book>>just(EMPTY_LIST));
         presenter.loadBooks();
-        //Shaniaik2tri&*()
-        //Shanaik2tri&*()
-
         verify(view).displayNoBooks();
     }
 
