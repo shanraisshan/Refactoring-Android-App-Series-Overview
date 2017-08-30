@@ -22,14 +22,15 @@ Basic concepts covered in this series includes
 - Introduction to Dagger
 
 Moreover, useful discussions between Uday and Rakesh that provides inside knowledge about various stuff
-- Books ([Effective Java](https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683) and [Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601))
+- Books ([Effective Java](https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683)[[E4](https://youtu.be/t_rlR8ZKvYA?t=2549)] and [Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)[[E8](https://youtu.be/JwBGnN06Kso?t=35)])
 - Videos ([Testing made sweet with a Mockito by Jereon Mols](https://youtu.be/DJDBl0vURD4) and [GOTO 2016 • Exploring RxJava 2 for Android • Jake Wharton](https://youtu.be/htIXKI5gOQU))
-- Exceptions
 - IDE shortcuts
-- Code coverage
-- Securely storing keys in Android
+- SOLID Principles[[E4](https://youtu.be/t_rlR8ZKvYA?t=2310)]
+- Exceptions
+- Code coverage[[E6](https://youtu.be/-gcMO7CRmWA?t=913)]
+- Securely storing keys in Android[[E7](https://youtu.be/DrQgTeKmyYI?t=882)]
 - Threading in general
-- MVP in Android vs MVC in Web
+- MVP in Android vs MVC in Web[[E9](https://youtu.be/1ZOiT09UDfE?t=524)]
 
 
 Episode Links
